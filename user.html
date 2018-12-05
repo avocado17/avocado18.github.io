@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset='utf-8'>
+<title> 회원가입 </title>
+<style>
+*{
+	padding: 0;
+	margin: 0;
+}
+
+body{
+	background-image: url('img/background.png')
+}
+
+li{
+	list-style-type: none;
+}
+
+.clear{
+	clear: both;
+}
+
+header{
+	width: 995px;
+	height: 150px;
+	margin-top: 10px;
+}
+
+#logo{
+	margin: 0 0 10px 0px;
+	padding-bottom: 10px;
+	padding-left: 130px;
+}
+
+#page{
+	width: 995px;
+	margin: 0 auto 10px auto;
+}
+
+form{
+	border-radius: 10px;
+	border: solid 2px #FFDDE6;
+	margin: 110px 0 0 130px;
+	background-color: white;
+	padding: 20px 20px 20px 20px;
+	text-align: left;
+	width: 700px;
+}
+h3{
+	background-color: #FFDDE6;
+	padding: 7px 10px 7px 10px;
+	width: 400px;
+
+}
+#center{
+	background-color: #FFDDE6;
+	width: 500px;
+	height: 35px;
+	font-family: '돋움';
+	color: #FF56A3;
+	font-weight: bold;
+}
+input{
+	border: dotted 1px magenta;
+}
+</style>
+</head>
+<body>
+
+<div id='page'>
+	<header>
+		<div id='logo'> <a href="new.html"><img src='img/title.png'></a> </div>
+	</header>
+
+<div class='clear'></div>
+
+<form>
+	<h3>계정 상세</h3>
+	아이디 <br> <input type='text'> <br><br>
+	비밀번호  <br> <input type='password'> <br><br>
+	비밀번호 재확인 <br> <input type='password'> <br><br>
+	
+	<h3>프로필 상세</h3>
+	이름 <br> <input type='text'> <br><br>
+	성별 <br> <input type='radio'> 여성 <input type='radio'> 남성 <br><br>
+	생년월일 <br> 
+	<select> 
+		<option>선택</option>
+		<option>1999년</option>
+		<option>2000년</option>
+	</select>
+
+	<select> 
+		<option>선택</option>
+		<option>1월</option>
+		<option>2월</option>
+		<option>3월</option>
+		<option>4월</option>
+		<option>5월</option>
+		<option>6월</option>
+		<option>7월</option>
+		<option>8월</option>
+		<option>9월</option>
+		<option>10월</option>
+		<option>11월</option>
+		<option>12월</option>
+	</select>
+
+	<select> 
+		<option>선택</option>
+		<option>1일</option>
+		<option>2일</option>
+		<option>3일</option>
+		<option>4일</option>
+		<option>5일</option>
+		<option>6일</option>
+		<option>7일</option>
+		<option>8일</option>
+		<option>9일</option>
+		<option>10일</option>
+		<option>11일</option>
+		<option>12일</option>
+		<option>13일</option>
+		<option>14일</option>
+		<option>15일</option>
+		<option>16일</option>
+		<option>17일</option>
+		<option>18일</option>
+		<option>19일</option>
+		<option>20일</option>
+		<option>21일</option>
+		<option>22일</option>
+		<option>23일</option>
+		<option>24일</option>
+		<option>25일</option>
+		<option>26일</option>
+		<option>27일</option>
+		<option>28일</option>
+		<option>29일</option>
+		<option>30일</option>
+		<option>31일</option>
+	</select>
+	<br><br>
+	본인 확인 이메일(선택) <br> <input type='text'> @
+	<select>
+		<option>선택</option>
+		<option>naver.com</option>
+		<option>gmail.com</option>
+		<option>nate.com</option>
+		<option>daum.net</option>
+	</select><br><br>
+	전화번호 입력 <br>
+	<table>
+		<tr><td colspan="2">
+			<select>
+				<option>선택</option>
+				<option>대한민국 +82</option>
+			</select>
+		</td>
+		<td><input type='text'></td><td><button type='button'>인증번호 받기</button></td></tr>
+	</table><br>
+	인증번호 입력 <br>
+	<input type='text'>
+	<br>
+	<br>
+	<button type='button' id='center'>가입하기</button>
+</form>
+</body>
+</html>
